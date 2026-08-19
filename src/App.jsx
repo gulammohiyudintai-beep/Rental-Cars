@@ -5,7 +5,6 @@ import Navbar from "./component/Navbar"
 import Footer from "./component/Footer"
 import Home from "./Pages/Home";
 import Cars from "./Pages/Cars";
-import CarDetails from "./Pages/CarDetails";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 
@@ -17,7 +16,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cars" element={<Cars />} />
-        <Route path="/cars/:id" element={<CarDetails />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact/>}/>
         <Route
