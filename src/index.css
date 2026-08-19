@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+
+button,
+a {
+  font-family: "Poppins", sans-serif;
+}
+/* .rent{
+  padding: 66px;
+  margin: 35px 0px 8px -63px;
+}
+.rent1{
+  padding: 0;
+  margin: -76px 0 0 0;
+}
+.star1{
+  padding: 0;
+  margin: 80px 0 0 0;
+}
+.text1{
+  padding: 0;
+  margin: 75px 0 0 0;
+}
+.location{
+  padding : 20px;
+  margin : -83px 0px 0px 230px;
+}
+.location1{
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+} */
