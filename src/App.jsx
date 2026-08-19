@@ -1,47 +1,8 @@
-// import { BrowserRouter, Route, Router } from "react-router-dom";
-// // import CarsSection from "./component/CarsSection";
-// // import CTABanner from "./component/CTABanner";
-// // import Footer from "./component/Footer";
-// // // import Hero from "./component/Hero";
-// // import Location from "./component/Location";
-// import Navbar from "./Component/Navbar";
-// // import PopularLocations from "./component/PopularLocations ";
-// // import Testimonials from "./component/Testimonials";
-// // import WhyChooseUs from "./component/WhyChooseUs";
 
-
-// function App() {
-//   return (
-//     <>
-//     <BrowserRouter>
-//     <Router>
-//       <Route path="/" element={<Navbar/>}/>
-//     </Router>
-//     </BrowserRouter>
-
-//     </>
-//   );
-// }
-
-// export default App;
-
-
-
-// {/* <Navbar />
-//       <Hero />
-//       <Location/>
-//       <CarsSection/>
-//       <WhyChooseUs/>
-//       <PopularLocations/>
-//       <Testimonials />
-//       <CTABanner />
-
-
-//       <Footer /> */}
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./Component/Navbar";
-import Footer from "./Component/Footer";
+import Navbar from "./component/Navbar"
+import Footer from "./component/Footer"
 import Home from "./Pages/Home";
 import Cars from "./Pages/Cars";
 import CarDetails from "./Pages/CarDetails";
@@ -51,7 +12,7 @@ import Contact from "./Pages/Contact";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+     <Navbar/>
 
       <Routes>
         <Route path="/" element={<Home />} />
