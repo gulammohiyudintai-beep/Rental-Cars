@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import CarsSection from "../component/CarsSection";
 import WhyChooseUs from "../component/WhyChooseUs";
-import PopularLocations from "../component/PopularLocations ";
+import PopularLocations from "../component/PopularLocations";
 import Testimonials from "../component/Testimonials";
 import CTABanner from "../component/CTABanner";
 
